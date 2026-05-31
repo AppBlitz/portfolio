@@ -1,0 +1,19 @@
+@import "tailwindcss";
+*{
+font-family:Arial, Helvetica, sans-serif ;
+color:black
+}
+#div_form{
+order: 5 ;
+}
+#button_send{
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 0.1px groove;
+
+}
+#button_send:hover{
+  background-color: black;
+  color:white;
+  cursor:pointer;
+}

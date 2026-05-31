@@ -1,12 +1,14 @@
+import "./css/contact.css"
 export default function Contact() {
   return (
-    <div>
+    <div id="div_form">
       <form>
         <div>
-          <label></label>
+          <label>Name</label>
+          <input type="text" />
         </div>
         <div>
-          <label>Subject</label>
+          <label id="subject_form">Subject</label>
           <input type="text" />
         </div>
         <div>
@@ -17,11 +19,10 @@ export default function Contact() {
           <label>Message</label>
           <textarea rows={4} cols={3}></textarea>
         </div>
-        <button>
+        <button id="button_send">
           Send
         </button>
-
       </form >
-    </div >
+    </div>
   );
 }
