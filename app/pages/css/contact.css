@@ -4,7 +4,9 @@ font-family:Arial, Helvetica, sans-serif ;
 color:black
 }
 #div_form{
-order: 5 ;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 #button_send{
   padding-left: 20px;

@@ -1,3 +1,4 @@
+
 import "./css/contact.css"
 export default function Contact() {
   return (
@@ -5,19 +6,19 @@ export default function Contact() {
       <form>
         <div>
           <label>Name</label>
-          <input type="text" />
+          <input type="text" name="name" />
         </div>
         <div>
           <label id="subject_form">Subject</label>
-          <input type="text" />
+          <input type="text" name="subject" />
         </div>
         <div>
           <label>Email</label>
-          <input type="email" />
+          <input type="email" name="email" />
         </div>
         <div>
           <label>Message</label>
-          <textarea rows={4} cols={3}></textarea>
+          <textarea rows={10} cols={10} name="message"></textarea>
         </div>
         <button id="button_send">
           Send
